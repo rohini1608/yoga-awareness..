@@ -39,3 +39,46 @@ footer{text-align:center;color:#77827b;font-size:13px;padding:20px}
 .week-photo img{display:block;width:100%;max-height:440px;object-fit:contain;background:#f2f3f1;border:1px solid #cbd4cd;padding:6px;border-radius:3px}
 .week-photo figcaption{font-size:13px;color:#6c786f;margin-top:8px;font-style:italic}
 .permission-photo img{max-height:560px;object-fit:contain}
+/* Week 1 Photo Styling */
+.week-photo {
+    width: 100%;
+    max-width: 850px;
+    margin: 40px auto 30px;
+    text-align: center;
+}
+
+.week-photo img {
+    display: block;
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 14px;
+    object-fit: contain;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
+    border: 1px solid #e1e8df;
+}
+
+.week-photo figcaption {
+    margin-top: 14px;
+    color: #52665c;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+    .week-photo {
+        margin: 25px auto;
+    }
+
+    .week-photo img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .week-photo figcaption {
+        font-size: 13px;
+    }
+}
